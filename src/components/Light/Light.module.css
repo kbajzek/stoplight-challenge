@@ -1,0 +1,29 @@
+.light{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.red-on {
+  background-color: red;
+}
+
+.red-off {
+  background-color: rgb(125, 0, 0);
+}
+
+.yellow-on {
+  background-color: yellow;
+}
+
+.yellow-off {
+  background-color: rgb(125, 125, 0);
+}
+
+.green-on {
+  background-color: rgb(0, 255, 0);
+}
+
+.green-off {
+  background-color: rgb(0, 82, 0);
+}

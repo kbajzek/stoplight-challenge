@@ -9,7 +9,7 @@ const Dropdown = ({value, changeValue, options}) => {
   return (
     <div>
       <select value={value} onChange={handleChange}>
-        {options.map( option => <option value={option.name}>{option.name}</option>)}
+        {options.map( option => <option key={option.name} value={option.name}>{option.name}</option>)}
       </select>
       {/* <p>Selected value: {state.dropdownValue}</p> */}
     </div>
